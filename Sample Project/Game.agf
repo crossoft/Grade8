@@ -615,15 +615,11 @@
         <SubFolders />
         <UnloadedRooms>
           <UnloadedRoom>
-            <Number>1</Number>
-            <Description IsNull="True" />
-          </UnloadedRoom>
-          <UnloadedRoom>
-            <Number>2</Number>
-            <Description IsNull="True" />
-          </UnloadedRoom>
-          <UnloadedRoom>
             <Number>3</Number>
+            <Description IsNull="True" />
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>4</Number>
             <Description IsNull="True" />
           </UnloadedRoom>
         </UnloadedRooms>
@@ -1918,7 +1914,7 @@
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
-            <StartingRoom>1</StartingRoom>
+            <StartingRoom>3</StartingRoom>
             <StartX>160</StartX>
             <StartY>160</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
@@ -1958,7 +1954,7 @@
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
-            <StartingRoom>1</StartingRoom>
+            <StartingRoom>-1</StartingRoom>
             <StartX>33</StartX>
             <StartY>125</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
