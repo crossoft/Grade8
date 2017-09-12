@@ -3279,6 +3279,12 @@ stop]]></Script>
               <Sprite Slot="3" Width="50" Height="50" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
             </Sprites>
           </SpriteFolder>
+          <SpriteFolder Name="VampirePig">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="233" Width="80" Height="50" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
+            </Sprites>
+          </SpriteFolder>
         </SubFolders>
         <Sprites>
           <Sprite Slot="0" Width="10" Height="6" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
