@@ -618,10 +618,13 @@
             <Number>3</Number>
             <Description IsNull="True" />
           </UnloadedRoom>
+<<<<<<< HEAD
           <UnloadedRoom>
             <Number>4</Number>
             <Description IsNull="True" />
           </UnloadedRoom>
+=======
+>>>>>>> 9d644e50fb1b5a6661bef2473e0c695dd069edca
         </UnloadedRooms>
       </UnloadedRoomFolder>
     </Rooms>
@@ -1918,7 +1921,7 @@
             <StartX>160</StartX>
             <StartY>160</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
-            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeed>10</MovementSpeed>
             <MovementSpeedX>3</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>4</AnimationDelay>
@@ -3277,6 +3280,12 @@ stop]]></Script>
             <Sprites>
               <Sprite Slot="1" Width="50" Height="50" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
               <Sprite Slot="3" Width="50" Height="50" ColorDepth="16" Resolution="LowRes" AlphaChannel="False" />
+            </Sprites>
+          </SpriteFolder>
+          <SpriteFolder Name="VampirePig">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="233" Width="80" Height="50" ColorDepth="16" Resolution="HighRes" AlphaChannel="False" />
             </Sprites>
           </SpriteFolder>
         </SubFolders>
