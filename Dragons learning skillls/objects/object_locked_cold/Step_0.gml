@@ -1,10 +1,10 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 385C2A1F
-/// @DnDArgument : "var" "global.level"
+/// @DnDArgument : "var" "global.unlocked"
 /// @DnDArgument : "op" "4"
-/// @DnDArgument : "value" "1"
-if(global.level >= 1)
+/// @DnDArgument : "value" "2"
+if(global.unlocked >= 2)
 {
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1

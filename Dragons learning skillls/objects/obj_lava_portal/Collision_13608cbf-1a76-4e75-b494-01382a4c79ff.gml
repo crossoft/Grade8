@@ -2,10 +2,10 @@
 /// @DnDVersion : 1
 /// @DnDHash : 69FA6AA3
 /// @DnDApplyTo : 0793411d-12ea-4f31-8a20-493aa65c4e07
-/// @DnDArgument : "var" "lava_portal"
+/// @DnDArgument : "var" "lava-portal"
 /// @DnDArgument : "op" "4"
 /// @DnDArgument : "value" "1"
-with(obj_lava_portal) var l69FA6AA3_0 = lava_portal >= 1;
+with(obj_lava_portal) var l69FA6AA3_0 = lava-portal >= 1;
 if(l69FA6AA3_0)
 {
 	/// @DnDAction : YoYo Games.Rooms.Go_To_Room

@@ -5,16 +5,6 @@
     "name": "object_locked_lava",
     "eventList": [
         {
-            "id": "da450c5d-e542-4829-bd0f-c44fa983a18a",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "c5a5725b-8945-4960-a996-1fc5118832c4",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "0faff397-b4b3-4be4-8650-5ed65d40db66"
-        },
-        {
             "id": "4f6fc593-9558-49bd-962b-25433e43f6be",
             "modelName": "GMEvent",
             "mvc": "1.0",

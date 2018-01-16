@@ -87,28 +87,10 @@ if(l32B0D1EF_0)
 		/// @DnDParent : 4090FB4A
 		/// @DnDArgument : "xpos" "500"
 		/// @DnDArgument : "ypos" "529"
-		/// @DnDArgument : "objectid" "object_portal_1"
+		/// @DnDArgument : "objectid" "object_portal_boss"
 		/// @DnDSaveInfo : "objectid" "db1a4a4d-f117-4568-a66b-749158b6afa3"
-		with(object_portal_1) {
-			instance_create_layer(500, 529, "Instances", object_portal_1); 
-		}
-	
-		/// @DnDAction : YoYo Games.Loops.Loop
-		/// @DnDVersion : 1
-		/// @DnDHash : 6D039839
-		/// @DnDParent : 4090FB4A
-		while(true)
-		{
-			/// @DnDAction : YoYo Games.Particles.Effect
-			/// @DnDVersion : 1
-			/// @DnDHash : 279575AF
-			/// @DnDParent : 6D039839
-			/// @DnDArgument : "x" "500"
-			/// @DnDArgument : "y" "529"
-			/// @DnDArgument : "type" "3"
-			/// @DnDArgument : "size" "2"
-			/// @DnDArgument : "color" "$FF18662E"
-			effect_create_below(3, 500, 529, 2, $FF18662E & $ffffff);
+		with(object_portal_boss) {
+			instance_create_layer(500, 529, "Instances", object_portal_boss); 
 		}
 	}
 }
@@ -202,28 +184,10 @@ if(l360A0743_0)
 		/// @DnDParent : 7EE67104
 		/// @DnDArgument : "xpos" "500"
 		/// @DnDArgument : "ypos" "529"
-		/// @DnDArgument : "objectid" "object_portal_1"
+		/// @DnDArgument : "objectid" "object_portal_boss"
 		/// @DnDSaveInfo : "objectid" "db1a4a4d-f117-4568-a66b-749158b6afa3"
-		with(object_portal_1) {
-			instance_create_layer(500, 529, "Instances", object_portal_1); 
-		}
-	
-		/// @DnDAction : YoYo Games.Loops.Loop
-		/// @DnDVersion : 1
-		/// @DnDHash : 1E1D1815
-		/// @DnDParent : 7EE67104
-		while(true)
-		{
-			/// @DnDAction : YoYo Games.Particles.Effect
-			/// @DnDVersion : 1
-			/// @DnDHash : 76682257
-			/// @DnDParent : 1E1D1815
-			/// @DnDArgument : "x" "500"
-			/// @DnDArgument : "y" "529"
-			/// @DnDArgument : "type" "3"
-			/// @DnDArgument : "size" "2"
-			/// @DnDArgument : "color" "$FF18662E"
-			effect_create_below(3, 500, 529, 2, $FF18662E & $ffffff);
+		with(object_portal_boss) {
+			instance_create_layer(500, 529, "Instances", object_portal_boss); 
 		}
 	}
 }
@@ -297,48 +261,23 @@ if(l474FB45A_0)
 		/// @DnDSaveInfo : "soundid" "fd100df2-f8d7-4a8d-9a7c-d43f885e9173"
 		audio_play_sound(snd_death, 0, 0);
 	
+		/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 30CB7DD4
+		/// @DnDApplyTo : db1a4a4d-f117-4568-a66b-749158b6afa3
+		/// @DnDParent : 153C2068
+		/// @DnDArgument : "xpos" "500"
+		/// @DnDArgument : "ypos" "500"
+		/// @DnDArgument : "objectid" "object_portal_boss"
+		/// @DnDSaveInfo : "objectid" "db1a4a4d-f117-4568-a66b-749158b6afa3"
+		with(object_portal_boss) {
+			instance_create_layer(500, 500, "Instances", object_portal_boss); 
+		}
+	
 		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 		/// @DnDVersion : 1
 		/// @DnDHash : 7D8AD3F8
 		/// @DnDParent : 153C2068
 		instance_destroy();
-	
-		/// @DnDAction : YoYo Games.Instances.Destroy_Instance
-		/// @DnDVersion : 1
-		/// @DnDHash : 3BCCB6EF
-		/// @DnDApplyTo : d718bf39-632e-4cf8-87dd-853d47eea41e
-		/// @DnDParent : 153C2068
-		with(obj_spawner3) instance_destroy();
-	
-		/// @DnDAction : YoYo Games.Instances.Create_Instance
-		/// @DnDVersion : 1
-		/// @DnDHash : 583D444A
-		/// @DnDApplyTo : db1a4a4d-f117-4568-a66b-749158b6afa3
-		/// @DnDParent : 153C2068
-		/// @DnDArgument : "xpos" "500"
-		/// @DnDArgument : "ypos" "529"
-		/// @DnDArgument : "objectid" "object_portal_1"
-		/// @DnDSaveInfo : "objectid" "db1a4a4d-f117-4568-a66b-749158b6afa3"
-		with(object_portal_1) {
-			instance_create_layer(500, 529, "Instances", object_portal_1); 
-		}
-	
-		/// @DnDAction : YoYo Games.Loops.Loop
-		/// @DnDVersion : 1
-		/// @DnDHash : 4B8B55B5
-		/// @DnDParent : 153C2068
-		while(true)
-		{
-			/// @DnDAction : YoYo Games.Particles.Effect
-			/// @DnDVersion : 1
-			/// @DnDHash : 78048A7D
-			/// @DnDParent : 4B8B55B5
-			/// @DnDArgument : "x" "500"
-			/// @DnDArgument : "y" "529"
-			/// @DnDArgument : "type" "3"
-			/// @DnDArgument : "size" "2"
-			/// @DnDArgument : "color" "$FF18662E"
-			effect_create_below(3, 500, 529, 2, $FF18662E & $ffffff);
-		}
 	}
 }
