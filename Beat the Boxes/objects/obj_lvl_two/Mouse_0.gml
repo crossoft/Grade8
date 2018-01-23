@@ -13,11 +13,19 @@ show_debug_message(string(global.level));
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 4E103250
-/// @DnDArgument : "var" "global.level"
+/// @DnDArgument : "var" "global.maxLevel"
 /// @DnDArgument : "op" "4"
 /// @DnDArgument : "value" "2"
-if(global.level >= 2)
+if(global.maxLevel >= 2)
 {
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 134E6AFA
+	/// @DnDParent : 4E103250
+	/// @DnDArgument : "expr" "2"
+	/// @DnDArgument : "var" "global.level"
+	global.level = 2;
+
 	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 	/// @DnDVersion : 1
 	/// @DnDHash : 503F9A70
