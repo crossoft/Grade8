@@ -9,14 +9,3 @@ with(obj_queen) {
 hp += -1;
 
 }
-
-/// @DnDAction : YoYo Games.Particles.Effect
-/// @DnDVersion : 1
-/// @DnDHash : 524021EA
-/// @DnDArgument : "x" "x"
-/// @DnDArgument : "y" "y"
-/// @DnDArgument : "type" "11"
-/// @DnDArgument : "where" "1"
-/// @DnDArgument : "size" "2"
-/// @DnDArgument : "color" "$FF1919FF"
-effect_create_above(11, x, y, 2, $FF1919FF & $ffffff);

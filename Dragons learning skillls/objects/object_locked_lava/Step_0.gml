@@ -1,10 +1,16 @@
+/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
+/// @DnDVersion : 1
+/// @DnDHash : 3DE99870
+/// @DnDArgument : "msg" "global.unlocked"
+show_debug_message(string(global.unlocked));
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 2D0C9233
-/// @DnDArgument : "var" "global.level"
+/// @DnDArgument : "var" "global.unlocked"
 /// @DnDArgument : "op" "4"
-/// @DnDArgument : "value" "3"
-if(global.level >= 3)
+/// @DnDArgument : "value" "4"
+if(global.unlocked >= 4)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
