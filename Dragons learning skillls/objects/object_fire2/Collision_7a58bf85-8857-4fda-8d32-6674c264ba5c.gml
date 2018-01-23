@@ -1,10 +1,14 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 57AF77F0
+/// @DnDApplyTo : 54acd2bc-b5f3-43e8-8b33-3987d153f674
 /// @DnDArgument : "expr" "-1"
 /// @DnDArgument : "expr_relative" "1"
 /// @DnDArgument : "var" "hp"
+with(obj_hardestenemy) {
 hp += -1;
+
+}
 
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1

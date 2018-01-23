@@ -319,6 +319,14 @@
             }
         },
         {
+            "Key": "4129fdfd-1bc4-41cc-82d0-c3c6d14bfb99",
+            "Value": {
+                "id": "265ca5bf-bb06-4803-bbd6-6692455fc359",
+                "resourcePath": "sprites\\sprite13\\sprite13.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "448c2902-8485-4a95-937d-1ec6ae786392",
             "Value": {
                 "id": "6a45d40a-5b06-4d66-99a6-e124f6d56022",
@@ -347,6 +355,14 @@
             "Value": {
                 "id": "43449cea-1cb8-47a5-9e12-8451e5609eab",
                 "resourcePath": "sprites\\sprite19\\sprite19.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4f820f21-995c-49db-b8d8-cee6d3f15d93",
+            "Value": {
+                "id": "de4cbd83-2d20-4068-8a5e-b5e6ab295189",
+                "resourcePath": "sprites\\sprite42\\sprite42.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -563,6 +579,14 @@
             "Value": {
                 "id": "7adb4936-957c-49b7-b90b-a1ba91cb340a",
                 "resourcePath": "objects\\obj_enemyspawner_dark1\\obj_enemyspawner_dark1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "898cb9e3-d0c7-4d94-9846-598028afc490",
+            "Value": {
+                "id": "80e9ddba-7023-45a0-9811-66865563595e",
+                "resourcePath": "objects\\object_fire1\\object_fire1.yy",
                 "resourceType": "GMObject"
             }
         },

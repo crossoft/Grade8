@@ -9,8 +9,8 @@ show_debug_message(string(global.unlocked));
 /// @DnDHash : 2D0C9233
 /// @DnDArgument : "var" "global.unlocked"
 /// @DnDArgument : "op" "4"
-/// @DnDArgument : "value" "4"
-if(global.unlocked >= 4)
+/// @DnDArgument : "value" "5"
+if(global.unlocked >= 5)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1

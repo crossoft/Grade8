@@ -1,15 +1,15 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 050E208A
+/// @DnDHash : 182F7815
 /// @DnDArgument : "var" "global.unlocked"
 /// @DnDArgument : "op" "4"
-/// @DnDArgument : "value" "2"
-if(global.unlocked >= 2)
+/// @DnDArgument : "value" "4"
+if(global.unlocked >= 4)
 {
 	/// @DnDAction : YoYo Games.Instances.Change_Instance
 	/// @DnDVersion : 1
-	/// @DnDHash : 7C189AB6
-	/// @DnDParent : 050E208A
+	/// @DnDHash : 3F50BD16
+	/// @DnDParent : 182F7815
 	/// @DnDArgument : "objind" "obj_player_2"
 	/// @DnDSaveInfo : "objind" "11cccb18-9662-4b4c-8d8e-10f9e04a2981"
 	instance_change(obj_player_2, true);
