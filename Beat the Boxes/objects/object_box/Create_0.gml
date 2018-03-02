@@ -1,16 +1,16 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 1A8BC8B9
-/// @DnDArgument : "expr" "5 * global.level * .75"
+/// @DnDArgument : "expr" "global.level * 6"
 /// @DnDArgument : "var" "hp"
-hp = 5 * global.level * .75;
+hp = global.level * 6;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 36F7615C
-/// @DnDArgument : "expr" "1.5 * global.level * .75"
+/// @DnDArgument : "expr" "((global.level -1) * .8)  + 1"
 /// @DnDArgument : "var" "spd"
-spd = 1.5 * global.level * .75;
+spd = ((global.level -1) * .8)  + 1;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

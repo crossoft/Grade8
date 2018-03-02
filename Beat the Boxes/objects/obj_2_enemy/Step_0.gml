@@ -141,11 +141,11 @@ if(hp <= 0)
 	/// @DnDHash : 50EEE6AE
 	/// @DnDApplyTo : b781f1fb-3302-44d5-900b-3a7205bf62a2
 	/// @DnDParent : 414622A5
-	/// @DnDArgument : "expr" "200"
+	/// @DnDArgument : "expr" "250"
 	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "var" "global.thescore"
 	with(obj_score) {
-	global.thescore += 200;
+	global.thescore += 250;
 	
 	}
 
