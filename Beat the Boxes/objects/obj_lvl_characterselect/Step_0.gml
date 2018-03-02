@@ -9,7 +9,7 @@ if (l4FD977A9_0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 79E3B5F6
 	/// @DnDParent : 4FD977A9
-	/// @DnDArgument : "room" "roomselection"
-	/// @DnDSaveInfo : "room" "5baa9187-69ea-465d-bf57-e21c95fa5872"
-	room_goto(roomselection);
+	/// @DnDArgument : "room" "rm_characterselection"
+	/// @DnDSaveInfo : "room" "f47f31de-6849-4eb0-a80f-a1d622cfc390"
+	room_goto(rm_characterselection);
 }

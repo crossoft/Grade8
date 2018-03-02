@@ -123,6 +123,31 @@ if(l430DAA1D_0)
 	speed = spd;
 }
 
+/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
+/// @DnDVersion : 1
+/// @DnDHash : 0A10DF37
+/// @DnDArgument : "obj" "obj_volcanobottle"
+/// @DnDSaveInfo : "obj" "b0d94058-ebab-477d-afa8-0c8135496c34"
+var l0A10DF37_0 = false;
+l0A10DF37_0 = instance_exists(obj_volcanobottle);
+if(l0A10DF37_0)
+{
+	/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
+	/// @DnDVersion : 1
+	/// @DnDHash : 47896317
+	/// @DnDParent : 0A10DF37
+	/// @DnDArgument : "x" "obj_volcanobottle.x"
+	/// @DnDArgument : "y" "obj_volcanobottle.y"
+	direction = point_direction(x, y, obj_volcanobottle.x, obj_volcanobottle.y);
+
+	/// @DnDAction : YoYo Games.Movement.Set_Speed
+	/// @DnDVersion : 1
+	/// @DnDHash : 32D28DF6
+	/// @DnDParent : 0A10DF37
+	/// @DnDArgument : "speed" "spd"
+	speed = spd;
+}
+
 /// @DnDAction : YoYo Games.Instances.Sprite_Rotate
 /// @DnDVersion : 1
 /// @DnDHash : 4DA11886
