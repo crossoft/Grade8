@@ -106,10 +106,10 @@ if(global.character == "pinkbottle")
 	/// @DnDHash : 137EF940
 	/// @DnDApplyTo : 68b9f2cf-5eed-4f93-9e36-51e02598e87c
 	/// @DnDParent : 78A8DDBD
-	/// @DnDArgument : "spriteind" "spr_pinkdroplet"
-	/// @DnDSaveInfo : "spriteind" "d37d7dd9-c5d7-4c2f-ba9f-e0dbe418fdfb"
+	/// @DnDArgument : "spriteind" "spr_pinkbottle"
+	/// @DnDSaveInfo : "spriteind" "1528d351-574d-4cd5-bd83-a792ee82302c"
 	with(obj_bluebottle) {
-	sprite_index = spr_pinkdroplet;
+	sprite_index = spr_pinkbottle;
 	image_index = 0;
 	}
 }
@@ -126,10 +126,10 @@ if(global.character == "yellowbottle")
 	/// @DnDHash : 32DB646A
 	/// @DnDApplyTo : 68b9f2cf-5eed-4f93-9e36-51e02598e87c
 	/// @DnDParent : 2C808341
-	/// @DnDArgument : "spriteind" "spr_yellowdroplet"
-	/// @DnDSaveInfo : "spriteind" "ce9407af-57ee-4c4e-919c-b9db9eb23f42"
+	/// @DnDArgument : "spriteind" "spr_yellowbottle"
+	/// @DnDSaveInfo : "spriteind" "6b22eda9-1a44-4ec4-a343-dd597c1a9426"
 	with(obj_bluebottle) {
-	sprite_index = spr_yellowdroplet;
+	sprite_index = spr_yellowbottle;
 	image_index = 0;
 	}
 }
@@ -146,10 +146,10 @@ if(global.character == "volcanobottle")
 	/// @DnDHash : 77DCBF5B
 	/// @DnDApplyTo : 68b9f2cf-5eed-4f93-9e36-51e02598e87c
 	/// @DnDParent : 74152286
-	/// @DnDArgument : "spriteind" "spr_lavadroplet"
-	/// @DnDSaveInfo : "spriteind" "81e4b7f6-aa42-44d0-8660-0a06daef60c0"
+	/// @DnDArgument : "spriteind" "spr_volcanobottle"
+	/// @DnDSaveInfo : "spriteind" "7adbbe13-c022-41b3-af0c-834078f92106"
 	with(obj_bluebottle) {
-	sprite_index = spr_lavadroplet;
+	sprite_index = spr_volcanobottle;
 	image_index = 0;
 	}
 }
