@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 1A8BC8B9
-/// @DnDArgument : "expr" "global.level * 15"
+/// @DnDArgument : "expr" "global.level * 12"
 /// @DnDArgument : "var" "hp"
-hp = global.level * 15;
+hp = global.level * 12;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

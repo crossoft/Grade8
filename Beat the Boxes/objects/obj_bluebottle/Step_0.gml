@@ -23,7 +23,8 @@ if (l5A805A0E_0)
 	/// @DnDHash : 460EA76A
 	/// @DnDParent : 5A805A0E
 	/// @DnDArgument : "var" "cooldown"
-	if(cooldown == 0)
+	/// @DnDArgument : "op" "3"
+	if(cooldown <= 0)
 	{
 		/// @DnDAction : YoYo Games.Instances.Create_Instance
 		/// @DnDVersion : 1
@@ -40,9 +41,9 @@ if (l5A805A0E_0)
 		/// @DnDVersion : 1
 		/// @DnDHash : 6E4D329C
 		/// @DnDParent : 460EA76A
-		/// @DnDArgument : "expr" "3"
+		/// @DnDArgument : "expr" "4"
 		/// @DnDArgument : "var" "cooldown"
-		cooldown = 3;
+		cooldown = 4;
 	}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
