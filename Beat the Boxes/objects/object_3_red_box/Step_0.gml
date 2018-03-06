@@ -229,9 +229,9 @@ if(hp <= 0)
 		/// @DnDHash : 59F9A577
 		/// @DnDParent : 77515F91
 		/// @DnDArgument : "sound" "sound_DEATH"
-		/// @DnDArgument : "pitch" "random_range(.4,.5)"
+		/// @DnDArgument : "pitch" "random_range(.2,.3)"
 		/// @DnDSaveInfo : "sound" "77aa5e60-f088-49c8-bec0-930fcdab1fb4"
-		audio_sound_pitch(sound_DEATH, random_range(.4,.5));
+		audio_sound_pitch(sound_DEATH, random_range(.2,.3));
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1

@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_lvl_impossible",
     "eventList": [
-        
+        {
+            "id": "ccf787e0-28d4-46a8-ae31-e71eb6430b56",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 6,
+            "m_owner": "24e13aeb-98e0-4f2c-888b-0ba152c90b49"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "parentObjectId": "00000000-0000-0000-0000-000000000000",

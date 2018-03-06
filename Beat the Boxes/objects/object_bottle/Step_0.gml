@@ -28,4 +28,12 @@ if (l5A805A0E_0)
 	/// @DnDArgument : "layer" ""Layer_Drop""
 	/// @DnDSaveInfo : "objectid" "a5c86c89-a7c8-42b6-96e5-80e13649fa15"
 	instance_create_layer(x, y, "Layer_Drop", object_droplet);
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 2C7FD987
+	/// @DnDParent : 5A805A0E
+	/// @DnDArgument : "expr" "3"
+	/// @DnDArgument : "var" "cooldown"
+	cooldown = 3;
 }

@@ -3,9 +3,10 @@
 /// @DnDHash : 20CB7B6F
 /// @DnDApplyTo : other
 /// @DnDArgument : "expr" "-2"
+/// @DnDArgument : "expr_relative" "1"
 /// @DnDArgument : "var" "hp"
 with(other) {
-hp = -2;
+hp += -2;
 
 }
 

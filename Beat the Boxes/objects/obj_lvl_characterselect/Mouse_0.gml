@@ -1,6 +1,6 @@
 /// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1
 /// @DnDHash : 6E401F91
-/// @DnDArgument : "room" "rm_title"
-/// @DnDSaveInfo : "room" "d83447cc-daa0-45d2-9c94-22ac656b9292"
-room_goto(rm_title);
+/// @DnDArgument : "room" "rm_characterselection"
+/// @DnDSaveInfo : "room" "f47f31de-6849-4eb0-a80f-a1d622cfc390"
+room_goto(rm_characterselection);

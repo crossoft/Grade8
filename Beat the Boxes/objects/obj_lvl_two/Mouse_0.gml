@@ -1,14 +1,14 @@
 /// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
 /// @DnDVersion : 1
 /// @DnDHash : 4A8A26FE
-/// @DnDArgument : "msg" ""what's the level?""
-show_debug_message(string("what's the level?"));
+/// @DnDArgument : "msg" ""what's the max level?""
+show_debug_message(string("what's the max level?"));
 
 /// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
 /// @DnDVersion : 1
 /// @DnDHash : 5BED05E8
-/// @DnDArgument : "msg" "global.level"
-show_debug_message(string(global.level));
+/// @DnDArgument : "msg" "global.maxLevel"
+show_debug_message(string(global.maxLevel));
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
