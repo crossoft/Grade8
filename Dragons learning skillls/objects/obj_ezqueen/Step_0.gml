@@ -203,6 +203,19 @@ if(l5DB93F7A_0)
 		with(object_portal) {
 			instance_create_layer(500, 529, "Instances", object28); 
 		}
+	
+		/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 6B6D07A9
+		/// @DnDApplyTo : 11cccb18-9662-4b4c-8d8e-10f9e04a2981
+		/// @DnDParent : 415DD8B4
+		/// @DnDArgument : "xpos" "500"
+		/// @DnDArgument : "ypos" "450"
+		/// @DnDArgument : "objectid" "obj_player_2"
+		/// @DnDSaveInfo : "objectid" "11cccb18-9662-4b4c-8d8e-10f9e04a2981"
+		with(obj_player_2) {
+			instance_create_layer(500, 450, "Instances", obj_player_2); 
+		}
 	}
 }
 
