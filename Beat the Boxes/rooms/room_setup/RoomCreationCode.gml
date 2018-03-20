@@ -11,6 +11,13 @@ global.level = 0;
 /// @DnDArgument : "var" "maxLevel"
 global.maxLevel = 1;
 
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 03FE2F75
+/// @DnDArgument : "value" ""bottle""
+/// @DnDArgument : "var" "character"
+global.character = "bottle";
+
 /// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1
 /// @DnDHash : 2099B0F0
