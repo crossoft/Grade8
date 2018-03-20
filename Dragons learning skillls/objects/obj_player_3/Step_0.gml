@@ -44,8 +44,8 @@ if (l1439B834_0)
 	/// @DnDParent : 1439B834
 	/// @DnDArgument : "xpos" "x"
 	/// @DnDArgument : "ypos" "y"
-	/// @DnDArgument : "objectid" "object_fire"
+	/// @DnDArgument : "objectid" "object_fire1"
 	/// @DnDArgument : "layer" ""layer_bullet""
-	/// @DnDSaveInfo : "objectid" "84b6ce3d-7f20-418f-b5a8-b3ccf0de5aa8"
-	instance_create_layer(x, y, "layer_bullet", object_fire);
+	/// @DnDSaveInfo : "objectid" "898cb9e3-d0c7-4d94-9846-598028afc490"
+	instance_create_layer(x, y, "layer_bullet", object_fire1);
 }

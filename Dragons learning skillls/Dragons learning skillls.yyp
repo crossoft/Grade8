@@ -167,14 +167,6 @@
             }
         },
         {
-            "Key": "1b75c007-9405-4d38-b94d-2ab0e796b6f9",
-            "Value": {
-                "id": "7eca2866-4399-45d1-a7e2-f0fd2765a5dc",
-                "resourcePath": "sprites\\spr_player11\\spr_player11.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "1c587fec-08a3-403e-929b-b1ad5cafc792",
             "Value": {
                 "id": "5021c8e8-a6bd-4e3c-a97f-61a5d72b6863",
@@ -567,6 +559,14 @@
             }
         },
         {
+            "Key": "78e9dc3c-a4b7-41e9-b77f-f93e52fd036b",
+            "Value": {
+                "id": "07ec2aaf-ca3d-45cd-8a32-22d31138ff4e",
+                "resourcePath": "sprites\\sprite56\\sprite56.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7b49d526-f15b-485e-afd6-cda43396432a",
             "Value": {
                 "id": "2780d5b2-4ab3-417a-b636-a1f215f05cbe",
@@ -635,6 +635,14 @@
             "Value": {
                 "id": "fcd13f9b-4013-47b7-be34-49256c22b868",
                 "resourcePath": "objects\\object_fire\\object_fire.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "857a566b-826f-457d-a7c5-eb179c026d02",
+            "Value": {
+                "id": "3175e55f-0af0-41ea-9631-3cf13ee2ff78",
+                "resourcePath": "objects\\obj_player\\obj_player.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1159,6 +1167,14 @@
             }
         },
         {
+            "Key": "e9f89b18-e4e6-4f71-b096-23ca6d83070b",
+            "Value": {
+                "id": "3fa49753-27f3-41e7-a27a-03d7c3f41545",
+                "resourcePath": "objects\\object_fire11\\object_fire11.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ebe3ee8b-ae60-45ac-9371-98c997050216",
             "Value": {
                 "id": "47c0c406-854d-4b8c-a5de-37fa07c8f76b",
@@ -1210,7 +1226,7 @@
             "Key": "f65ac973-5a2d-420d-bbf7-3723c03f709c",
             "Value": {
                 "id": "70838ec9-1b6d-434d-988f-c86f2c508042",
-                "resourcePath": "objects\\obj_player\\obj_player.yy",
+                "resourcePath": "objects\\obj_player_plane\\obj_player_plane.yy",
                 "resourceType": "GMObject"
             }
         },
