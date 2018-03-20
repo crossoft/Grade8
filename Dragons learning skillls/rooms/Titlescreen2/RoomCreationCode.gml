@@ -1,12 +1,14 @@
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 4CC8DD54
-/// @DnDInput : 3
+/// @DnDInput : 4
 /// @DnDArgument : "var" "thescore"
 /// @DnDArgument : "var_1" "unlocked"
+/// @DnDArgument : "var_3" "enterpresses"
 global.thescore = 0;
 global.unlocked = 0;
 global.variable = 0;
+global.enterpresses = 0;
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

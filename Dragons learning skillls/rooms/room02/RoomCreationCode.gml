@@ -1,3 +1,9 @@
+/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
+/// @DnDVersion : 1
+/// @DnDHash : 7012AB36
+/// @DnDArgument : "msg" ""room02: created""
+show_debug_message(string("room02: created"));
+
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 50C88D2F
