@@ -35,10 +35,10 @@ if(global.moveable == 1)
 		/// @DnDParent : 488C7405
 		/// @DnDArgument : "xpos" "x"
 		/// @DnDArgument : "ypos" "y"
-		/// @DnDArgument : "objectid" "object_fire2"
+		/// @DnDArgument : "objectid" "object_fire_clip"
 		/// @DnDArgument : "layer" ""layer_bullet""
-		/// @DnDSaveInfo : "objectid" "e8d53236-cc29-4966-9041-98cd2cfa610b"
-		instance_create_layer(x, y, "layer_bullet", object_fire2);
+		/// @DnDSaveInfo : "objectid" "e9f89b18-e4e6-4f71-b096-23ca6d83070b"
+		instance_create_layer(x, y, "layer_bullet", object_fire_clip);
 	}
 
 	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Mouse_Down
@@ -55,53 +55,9 @@ if(global.moveable == 1)
 		/// @DnDParent : 1439B834
 		/// @DnDArgument : "xpos" "x"
 		/// @DnDArgument : "ypos" "y"
-		/// @DnDArgument : "objectid" "object_fire11"
+		/// @DnDArgument : "objectid" "object_fire_clip"
 		/// @DnDArgument : "layer" ""layer_bullet""
 		/// @DnDSaveInfo : "objectid" "e9f89b18-e4e6-4f71-b096-23ca6d83070b"
-		instance_create_layer(x, y, "layer_bullet", object_fire11);
-	}
-}
-
-/// @DnDAction : YoYo Games.Common.Else
-/// @DnDVersion : 1
-/// @DnDHash : 5F0506F8
-else
-{
-	/// @DnDAction : YoYo Games.Common.If_Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 5EB91BED
-	/// @DnDParent : 5F0506F8
-	/// @DnDArgument : "var" "obj_player.x"
-	/// @DnDArgument : "op" "3"
-	/// @DnDArgument : "value" "544"
-	if(obj_player.x <= 544)
-	{
-		/// @DnDAction : YoYo Games.Common.If_Variable
-		/// @DnDVersion : 1
-		/// @DnDHash : 5313BD55
-		/// @DnDApplyTo : f65ac973-5a2d-420d-bbf7-3723c03f709c
-		/// @DnDParent : 5EB91BED
-		/// @DnDArgument : "var" "obj_player.direction"
-		/// @DnDArgument : "not" "1"
-		with(obj_player_plane) var l5313BD55_0 = obj_player.direction == 0;
-		if(!l5313BD55_0)
-		{
-			/// @DnDAction : YoYo Games.Movement.Set_Speed
-			/// @DnDVersion : 1
-			/// @DnDHash : 5AF1D9CB
-			/// @DnDApplyTo : f65ac973-5a2d-420d-bbf7-3723c03f709c
-			/// @DnDParent : 5313BD55
-			with(obj_player_plane) speed = 0;
-		
-			/// @DnDAction : YoYo Games.Instances.Create_Instance
-			/// @DnDVersion : 1
-			/// @DnDHash : 144C898D
-			/// @DnDParent : 5313BD55
-			/// @DnDArgument : "xpos" "256"
-			/// @DnDArgument : "ypos" "576"
-			/// @DnDArgument : "objectid" "obj_text1"
-			/// @DnDSaveInfo : "objectid" "5a60051f-cb14-4aee-8baf-c1b2c398b3f9"
-			instance_create_layer(256, 576, "Instances", obj_text1);
-		}
+		instance_create_layer(x, y, "layer_bullet", object_fire_clip);
 	}
 }
