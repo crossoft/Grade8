@@ -335,6 +335,14 @@
             }
         },
         {
+            "Key": "48897821-a371-4614-9ef0-eca450d2407f",
+            "Value": {
+                "id": "db7a233e-fa71-4b65-9220-d111f5b05d7f",
+                "resourcePath": "sprites\\spr_blackspike\\spr_blackspike.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "49a0fedb-6b98-475a-bca8-ad745971291f",
             "Value": {
                 "id": "8ae0f085-aa49-495a-8fa9-9e0fed97aec0",
@@ -391,6 +399,14 @@
             }
         },
         {
+            "Key": "5ef68d93-330b-43fa-a6d7-6a85562e1b11",
+            "Value": {
+                "id": "5d41bb0c-4802-4312-a870-97e0ae1a9fb9",
+                "resourcePath": "objects\\object_blackspike\\object_blackspike.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5f632761-cdb6-4e27-b3ff-d5a0590e0c4c",
             "Value": {
                 "id": "744257b0-decb-4aec-ae84-b5361de22fca",
@@ -436,6 +452,14 @@
                 "id": "620461ea-d16e-40fc-a16e-7b408430341c",
                 "resourcePath": "sprites\\spr_greenbottle\\spr_greenbottle.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6dd34a69-b973-43ea-b248-d327393f93b0",
+            "Value": {
+                "id": "fe71eb5f-9ff3-4273-a91d-89f3c89b1164",
+                "resourcePath": "objects\\obj_blackstarbottle\\obj_blackstarbottle.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -588,6 +612,14 @@
                 "id": "e7cbb78a-caa9-4add-9520-ad34b8b721d1",
                 "resourcePath": "fonts\\font1\\font1.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "8dd3203a-9e02-4e98-9f01-99d89e607bc0",
+            "Value": {
+                "id": "b0a32e4e-867d-4d43-b377-4c97a572cb76",
+                "resourcePath": "sprites\\sprite_blackstarbottle\\sprite_blackstarbottle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1020,6 +1052,14 @@
                 "id": "c52998e1-eb91-4427-824e-a4aec096263c",
                 "resourcePath": "sprites\\spr_WOODSIGN\\spr_WOODSIGN.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ff7ab09a-a561-4300-b52c-d07b1c86821b",
+            "Value": {
+                "id": "dd987e51-ca9a-4afd-bd6d-ecac02edddcc",
+                "resourcePath": "objects\\obj_select_blackstarbottle\\obj_select_blackstarbottle.yy",
+                "resourceType": "GMObject"
             }
         }
     ],
