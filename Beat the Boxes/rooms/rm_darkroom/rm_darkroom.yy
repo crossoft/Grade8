@@ -2,7 +2,7 @@
 {
     "name": "rm_darkroom",
     "id": "e5ea8ea4-3582-41f6-a4b5-36a5e382bac3",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

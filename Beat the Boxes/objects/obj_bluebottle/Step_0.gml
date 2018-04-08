@@ -192,6 +192,27 @@ if (l5A805A0E_0)
 		image_index = 0;
 		}
 	}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 1404D14C
+	/// @DnDParent : 5A805A0E
+	/// @DnDArgument : "var" "global.character"
+	/// @DnDArgument : "value" ""blackstarbottle""
+	if(global.character == "blackstarbottle")
+	{
+		/// @DnDAction : YoYo Games.Instances.Set_Sprite
+		/// @DnDVersion : 1
+		/// @DnDHash : 14F388A4
+		/// @DnDApplyTo : 841bc5ac-e0f3-4be6-96c0-839793f7ce89
+		/// @DnDParent : 1404D14C
+		/// @DnDArgument : "spriteind" "spr_blackspike"
+		/// @DnDSaveInfo : "spriteind" "48897821-a371-4614-9ef0-eca450d2407f"
+		with(obj_bluedroplet) {
+		sprite_index = spr_blackspike;
+		image_index = 0;
+		}
+	}
 }
 
 /// @DnDAction : YoYo Games.Common.Variable

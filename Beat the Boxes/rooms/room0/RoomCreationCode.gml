@@ -22,6 +22,31 @@ show_debug_message(string(">>maxLevel:"));
 /// @DnDArgument : "msg" "global.maxLevel"
 show_debug_message(string(global.maxLevel));
 
+/// @DnDAction : YoYo Games.Files.Open_Ini
+/// @DnDVersion : 1
+/// @DnDHash : 55927736
+/// @DnDArgument : "filename" ""config.ini""
+ini_open("config.ini");
+
+/// @DnDAction : YoYo Games.Files.Ini_Write
+/// @DnDVersion : 1
+/// @DnDHash : 4612F355
+/// @DnDArgument : "section" ""player""
+/// @DnDArgument : "key" ""character""
+/// @DnDArgument : "value" "global.character"
+ini_write_string("player", "character", global.character);
+
+/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
+/// @DnDVersion : 1
+/// @DnDHash : 2B5BF857
+/// @DnDArgument : "msg" ""Writing character: " + global.character"
+show_debug_message(string("Writing character: " + global.character));
+
+/// @DnDAction : YoYo Games.Files.Close_Ini
+/// @DnDVersion : 1
+/// @DnDHash : 58D8FF82
+ini_close();
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 5A64FAC6
@@ -184,11 +209,11 @@ if(global.character == "blackstarbottle")
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
 	/// @DnDHash : 1235F186
-	/// @DnDApplyTo : ff7ab09a-a561-4300-b52c-d07b1c86821b
+	/// @DnDApplyTo : 68b9f2cf-5eed-4f93-9e36-51e02598e87c
 	/// @DnDParent : 385C6BD7
 	/// @DnDArgument : "spriteind" "sprite_blackstarbottle"
 	/// @DnDSaveInfo : "spriteind" "8dd3203a-9e02-4e98-9f01-99d89e607bc0"
-	with(obj_select_blackstarbottle) {
+	with(obj_bluebottle) {
 	sprite_index = sprite_blackstarbottle;
 	image_index = 0;
 	}
